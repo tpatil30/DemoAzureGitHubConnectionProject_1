@@ -1,0 +1,13 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  demoapplication_netfw46:
+    build:
+      context: C:\I4D\DemoApplication_NetFW46\DemoApplication_NetFW46
+      dockerfile: Dockerfile
+    image: demoapplicationnetfw46
+    ports:
+    - target: 80
+version: '3.4'

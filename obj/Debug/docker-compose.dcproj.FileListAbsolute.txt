@@ -1,0 +1,11 @@
+C:\I4D\DemoApplication_NetFW46\bin\Debug\DemoApplication_NetFW46.dll
+C:\I4D\DemoApplication_NetFW46\bin\Debug\System.Web.Optimization.dll
+C:\I4D\DemoApplication_NetFW46\bin\Debug\Microsoft.AspNet.FriendlyUrls.dll
+C:\I4D\DemoApplication_NetFW46\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\I4D\DemoApplication_NetFW46\bin\Debug\DemoApplication_NetFW46.pdb
+C:\I4D\DemoApplication_NetFW46\bin\Debug\DemoApplication_NetFW46.dll.config
+C:\I4D\DemoApplication_NetFW46\bin\Debug\System.Web.Optimization.xml
+C:\I4D\DemoApplication_NetFW46\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
+C:\I4D\DemoApplication_NetFW46\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\I4D\DemoApplication_NetFW46\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\I4D\DemoApplication_NetFW46\obj\Debug\docker-compose.dcproj.CopyComplete

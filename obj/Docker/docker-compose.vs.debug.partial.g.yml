@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  demoapplication_netfw46:
+    image: demoapplicationnetfw46:dev
+    build:
+      args:
+        source: obj/Docker/empty/
+    volumes:
+      - C:\I4D\DemoApplication_NetFW46\DemoApplication_NetFW46:C:\inetpub\wwwroot
+      - :C:\remote_debugger:ro
+    entrypoint: cmd /c "start /B C:\\ServiceMonitor.exe w3svc & C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646"
+    environment:
+      - DEV_ENVIRONMENT=1
+      - VBCSCOMPILER_TTL=604800
+
